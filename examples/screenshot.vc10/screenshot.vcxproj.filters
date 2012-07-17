@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cryptoppmin">
+      <UniqueIdentifier>{f228e7b3-7ebc-460d-8e1c-ae1f2101ce6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyvnc">
+      <UniqueIdentifier>{592de371-1b21-4c7f-9d1e-9f6c122e1b06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cryptoppmin\3way.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\zlib.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\adler32.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\algebra.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\algparam.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\arc4.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\asn.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\authenc.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\base32.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\base64.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\basecode.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\bfinit.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\blowfish.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\blumshub.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\camellia.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\cast.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\casts.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\cbcmac.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\ccm.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\channels.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\cmac.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\cpu.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\crc.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\cryptlib.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\cryptlib_bds.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\decoration.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\default.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\des.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\dessp.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\dh.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\dh2.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\dsa.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\eax.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\ecp.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\elgamal.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\emsa2.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\esign.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\files.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\filters.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\fips140.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\fipsalgt.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gcm.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gf256.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gf2_32.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gf2n.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gfpcrypt.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gost.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\gzip.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\hex.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\hmac.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\hrtimer.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\ida.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\idea.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\integer.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\iterhash.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\luc.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\mars.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\marss.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\md2.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\md4.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\md5.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\misc.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\modes.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\mqueue.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\mqv.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\nbtheory.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\network.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\oaep.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\osrng.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\panama.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\pch.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\pkcspad.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\polynomi.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\pssr.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\pubkey.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\queue.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rabin.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\randpool.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rc2.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rc5.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rc6.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rdtables.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\regtest.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rijndael.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\ripemd.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rng.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rsa.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\rw.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\safer.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\salsa.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\seal.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\seed.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\serpent.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\sha.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\shacal2.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\shark.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\sharkbox.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\simple.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\skipjack.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\socketft.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\sosemanuk.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\square.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\squaretb.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\tea.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\tftables.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\tiger.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\tigertab.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\trdlocal.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\ttmac.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\twofish.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\vmac.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\wait.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\wake.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\whrlpool.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\winpipes.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\xtr.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\xtrcrypt.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\zdeflate.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cryptoppmin\zinflate.cpp">
+      <Filter>cryptoppmin</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\des_local.cpp">
+      <Filter>tinyvnc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\raw_query.cpp">
+      <Filter>tinyvnc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\vnc_client.cpp">
+      <Filter>tinyvnc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\cryptoppmin\3way.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\zlib.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\adler32.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\aes.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\algebra.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\algparam.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\arc4.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\argnames.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\asn.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\authenc.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\base32.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\base64.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\basecode.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\bench.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\blowfish.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\blumshub.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\camellia.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\cast.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\cbcmac.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\ccm.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\channels.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\cmac.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\config.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\cpu.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\crc.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\cryptlib.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\default.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\des.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\dh.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\dh2.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\dmac.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\dsa.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\eax.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\ec2n.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\eccrypto.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\ecp.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\elgamal.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\emsa2.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\eprecomp.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\esign.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\factory.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\files.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\filters.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\fips140.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\fltrimpl.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gcm.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gf256.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gf2_32.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gf2n.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gfpcrypt.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gost.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\gzip.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\hex.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\hmac.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\hrtimer.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\ida.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\idea.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\integer.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\iterhash.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\lubyrack.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\luc.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\mars.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\md2.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\md4.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\md5.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\mdc.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\misc.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\modarith.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\modes.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\modexppc.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\mqueue.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\mqv.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\nbtheory.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\network.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\nr.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\oaep.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\oids.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\osrng.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\panama.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\pch.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\pkcspad.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\polynomi.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\pssr.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\pubkey.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\pwdbased.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\queue.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rabin.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\randpool.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rc2.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rc5.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rc6.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\resource.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rijndael.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\ripemd.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rng.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rsa.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\rw.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\safer.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\salsa.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\seal.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\secblock.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\seckey.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\seed.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\serpent.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\serpentp.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\sha.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\shacal2.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\shark.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\simple.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\skipjack.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\smartptr.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\socketft.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\sosemanuk.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\square.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\stdcpp.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\strciphr.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\tea.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\tiger.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\trdlocal.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\trunhash.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\ttmac.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\twofish.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\vmac.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\wait.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\wake.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\whrlpool.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\winpipes.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\words.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\xtr.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\xtrcrypt.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\zdeflate.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\cryptoppmin\zinflate.h">
+      <Filter>cryptoppmin</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\raw_query.hpp">
+      <Filter>tinyvnc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\des_local.h">
+      <Filter>tinyvnc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\vnc_client.hpp">
+      <Filter>tinyvnc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

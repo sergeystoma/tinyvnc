@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0ADA468-DE1A-4946-A335-DF29C0A23202}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>screenshot</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>CRYPTOPP_MANUALLY_INSTANTIATE_TEMPLATES;NOMINMAX;WIN32_LEAN_AND_MEAN;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>CRYPTOPP_MANUALLY_INSTANTIATE_TEMPLATES;NOMINMAX;WIN32_LEAN_AND_MEAN;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cryptoppmin\3way.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\adler32.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\algebra.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\algparam.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\arc4.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\asn.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\authenc.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\base32.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\base64.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\basecode.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\bfinit.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\blowfish.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\blumshub.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\camellia.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\cast.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\casts.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\cbcmac.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\ccm.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\channels.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\cmac.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\cpu.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\crc.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\cryptlib.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\cryptlib_bds.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\decoration.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\default.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\des.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\dessp.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\dh.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\dh2.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\dsa.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\eax.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\ecp.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\elgamal.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\emsa2.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\esign.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\files.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\filters.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\fips140.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\fipsalgt.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gcm.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gf256.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gf2n.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gf2_32.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gfpcrypt.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gost.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\gzip.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\hex.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\hmac.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\hrtimer.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\ida.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\idea.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\integer.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\iterhash.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\luc.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\mars.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\marss.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\md2.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\md4.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\md5.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\misc.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\modes.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\mqueue.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\mqv.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\nbtheory.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\network.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\oaep.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\osrng.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\panama.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\pch.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\pkcspad.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\polynomi.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\pssr.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\pubkey.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\queue.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rabin.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\randpool.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rc2.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rc5.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rc6.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rdtables.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\regtest.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rijndael.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\ripemd.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rng.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rsa.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\rw.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\safer.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\salsa.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\seal.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\seed.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\serpent.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\sha.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\shacal2.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\shark.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\sharkbox.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\simple.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\skipjack.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\socketft.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\sosemanuk.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\square.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\squaretb.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\tea.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\tftables.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\tiger.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\tigertab.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\trdlocal.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\ttmac.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\twofish.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\vmac.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\wait.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\wake.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\whrlpool.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\winpipes.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\xtr.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\xtrcrypt.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\zdeflate.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\zinflate.cpp" />
+    <ClCompile Include="..\..\src\cryptoppmin\zlib.cpp" />
+    <ClCompile Include="..\..\src\des_local.cpp" />
+    <ClCompile Include="..\..\src\raw_query.cpp" />
+    <ClCompile Include="..\..\src\vnc_client.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\cryptoppmin\3way.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\adler32.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\aes.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\algebra.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\algparam.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\arc4.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\argnames.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\asn.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\authenc.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\base32.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\base64.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\basecode.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\bench.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\blowfish.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\blumshub.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\camellia.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\cast.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\cbcmac.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\ccm.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\channels.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\cmac.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\config.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\cpu.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\crc.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\cryptlib.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\default.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\des.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\dh.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\dh2.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\dmac.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\dsa.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\eax.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\ec2n.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\eccrypto.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\ecp.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\elgamal.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\emsa2.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\eprecomp.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\esign.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\factory.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\files.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\filters.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\fips140.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\fltrimpl.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gcm.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gf256.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gf2n.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gf2_32.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gfpcrypt.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gost.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\gzip.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\hex.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\hmac.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\hrtimer.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\ida.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\idea.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\integer.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\iterhash.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\lubyrack.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\luc.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\mars.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\md2.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\md4.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\md5.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\mdc.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\misc.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\modarith.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\modes.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\modexppc.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\mqueue.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\mqv.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\nbtheory.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\network.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\nr.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\oaep.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\oids.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\osrng.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\panama.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\pch.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\pkcspad.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\polynomi.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\pssr.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\pubkey.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\pwdbased.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\queue.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rabin.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\randpool.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rc2.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rc5.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rc6.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\resource.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rijndael.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\ripemd.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rng.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rsa.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\rw.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\safer.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\salsa.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\seal.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\secblock.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\seckey.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\seed.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\serpent.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\serpentp.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\sha.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\shacal2.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\shark.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\simple.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\skipjack.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\smartptr.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\socketft.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\sosemanuk.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\square.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\stdcpp.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\strciphr.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\tea.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\tiger.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\trdlocal.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\trunhash.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\ttmac.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\twofish.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\vmac.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\wait.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\wake.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\whrlpool.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\winpipes.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\words.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\xtr.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\xtrcrypt.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\zdeflate.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\zinflate.h" />
+    <ClInclude Include="..\..\src\cryptoppmin\zlib.h" />
+    <ClInclude Include="..\..\src\des_local.h" />
+    <ClInclude Include="..\..\src\raw_query.hpp" />
+    <ClInclude Include="..\..\src\vnc_client.hpp" />
+    <ClInclude Include="stb_image_write.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
