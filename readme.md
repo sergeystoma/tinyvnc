@@ -9,16 +9,16 @@ Easiest way to use tinyvnc is as a static library. Simply include all .cpp files
 # Building for XCode Step by Step #
 
 * Add all library files to your project:
-** des_local.cpp, des_local.h, keysymdef.h, raw_query.cpp, raw_query.hpp, vnc_client.cpp, vnc_client.hpp
-** All files from cryptoppmin directory
+  * des_local.cpp, des_local.h, keysymdef.h, raw_query.cpp, raw_query.hpp, vnc_client.cpp, vnc_client.hpp
+  * All files from cryptoppmin directory
 
 * Exclude following files from the build: ec2n.cpp, eccrypto.cpp, eprecomp.cpp, strciphr.cpp
-** Click on the file in the Project Navigator (Command + 1, on the left by default)
-** Clear checkbox for Target Membership in the File Inspector (Command + Alt + 1, on the right by default)
+  * Click on the file in the Project Navigator (Command + 1, on the left by default)
+  * Clear checkbox for Target Membership in the File Inspector (Command + Alt + 1, on the right by default)
 
 * In project Build Settings, define following Preprocessor Macros:
-** CRYPTOPP_DISABLE_ASM
-** CRYPTOPP_MANUALLY_INSTANTIATE_TEMPLATES
+  * CRYPTOPP_DISABLE_ASM
+  * CRYPTOPP_MANUALLY_INSTANTIATE_TEMPLATES
 
 * Make sure that files from which you are using TinyVNC are compiled as Objective-C++. Easiest way is to change file extension from .m to .mm
 
