@@ -710,14 +710,25 @@ namespace Network
   
   void VncClient::send_key(unsigned short key, bool down)
   {    
-    char key_event[] = { 4, down ? 1 : 0, 0, 0, 0, 0, (key & 0xff00) >> 8, key & 0x00ff };
+    char key_event[] = { 4, (char)(down ? 1 : 0), 0, 0, 0, 0, (char)((key & 0xff00) >> 8), (char)(key & 0x00ff) };
 
     write(key_event, key_event + sizeof(key_event) / sizeof(char));
   }
 
   void VncClient::request_screen(bool incremental, int x, int y, int width, int height)
   {
-    char frame_event[] = { 3, incremental ? 1 : 0, (x & 0xff00) >> 8, x & 0xff, (y & 0xff00) >> 8, y & 0xff, (width & 0xff00) >> 8, width & 0xff, (height & 0xff00) >> 8, height & 0xff };
+    char frame_event[] = {
+      3,
+      (char)(incremental ? 1 : 0),
+      (char)((x & 0xff00) >> 8),
+      (char)(x & 0xff),
+      (char)((y & 0xff00) >> 8),
+      (char)(y & 0xff),
+      (char)((width & 0xff00) >> 8),
+      (char)(width & 0xff),
+      (char)((height & 0xff00) >> 8),
+      (char)(height & 0xff)
+    };
 
     write(frame_event, frame_event + sizeof(frame_event) / sizeof(char));
   }
